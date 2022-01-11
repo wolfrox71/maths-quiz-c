@@ -13,7 +13,7 @@ namespace File_Change { // this is needed for the using to work correctly
             }
         }
 
-        public string[] readFile(
+        public string[] ReadFile(
                 bool show=false // specificy if they want the contence of the file to be printed, this is off by default
                 ) 
             {
@@ -26,7 +26,7 @@ namespace File_Change { // this is needed for the using to work correctly
             return lines; // return the lines as a string array
         }
 
-        public void updateFile (
+        public void UpdateFile (
                 string data, // get the data to write to the file
                 bool write=false, // these have a default value so are not needed to be passed through
                 bool newLine = true
